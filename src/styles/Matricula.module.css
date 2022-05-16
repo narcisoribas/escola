@@ -1,0 +1,92 @@
+.matriculaContainer{
+    flex: 1;
+    margin:15% 10% auto  10%;     
+    
+}
+
+.matriculaContainer form{
+    padding-bottom: 3.5rem;
+}
+
+.matriculaContainer  h1{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+
+}
+
+.matriculaContainer form>h1{
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+
+}
+.matriculaContainer form >div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    
+}
+
+
+
+.matriculaContainer form div div input,.matriculaContainer form div div select{
+    padding: 0.5rem;
+    width: 90%;  
+    background: inherit;
+    border: 1px solid var(--text);
+    color: var(--text);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+.matriculaContainer form div  input[type='file']{
+    display: none;
+    
+  
+}
+
+.labelFotoEstudante{
+    width: 100%;
+    background: var(--blue-twiter);
+    padding: 1rem;
+    color: var(--white);
+    text-align: center;
+    grid-column: 1/3;
+    transition: 2s;
+    border-radius: 0.5rem;
+}
+
+.labelFotoEstudante:hover{
+    filter: brightness(0.7);
+}
+
+.buttonGroup{
+    display: flex!important;
+    align-content: center;
+    align-items: center;
+    padding-left:10.5rem;
+    padding-top: 1rem;
+ 
+    
+}
+
+
+.buttonGroup button{
+    background: var(--blue-twiter);
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    transition:2s;
+    
+}
+
+.buttonGroup button:hover{
+    filter: brightness(0.7);
+}
+
+.buttonGroup :last-child{
+    margin-left: 1rem;
+}
+

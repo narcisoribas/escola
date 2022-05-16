@@ -1,0 +1,199 @@
+.CadastroDeUsuarioContainer{
+    margin:10% 10% auto  10%;
+}
+
+.pesquisa   {
+    margin-top: 1rem;
+    
+    display: flex;
+    width: 100%;
+    background: inherit;
+}
+
+.CadastroDeUsuarioContainer>div input{
+    padding: 0.5rem;
+    width: 100%;  
+    background: inherit;
+    border: 1px solid var(--blue-twiter);
+    color: var(--text);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem; 
+    box-shadow: 16px 2px 32px rgba(1, 0, 0, 0.5);
+}
+
+.CadastroDeUsuarioContainer>div button{
+    padding: 0.5rem;
+    width: 20%;  
+    background: var(--blue-twiter);
+    margin-left:0.5rem;
+    color: var(--background);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    transition: 2s;
+}
+
+
+.CadastroDeUsuarioContainer>div button:hover{
+    filter: brightness(0.8);
+}
+
+.imagemEstudemPesquisa{
+    flex: 1;
+    width: 100%;
+    padding-left: 40%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.CadastroDeUsuarioContainer div div img{
+    margin-top: 3.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+}
+
+
+.nomeEstudante{
+    text-align: center;
+    margin-top: 0.5rem;
+   
+}
+
+
+.resultadoDaBuscaEstudanteConfirmacao{
+    margin-left: -1%;
+    padding-top: 1rem;
+    text-align: center;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+  
+    
+}
+
+.resultadoDaBuscaEstudanteConfirmacao table{
+    font-size: 0.9rem;
+    border-top: 1px solid var(--text);
+    border-bottom: 1px solid var(--text);
+    margin-left: -9%;
+    padding: 0.5rem;
+    text-align: center;
+  
+  
+}
+
+.resultadoDaBuscaEstudanteConfirmacao table thead{
+    border-bottom: 1px solid var(text);
+   
+    
+}
+
+.resultadoDaBuscaEstudanteConfirmacao table tbody td{
+    padding: 0.1rem;
+    background: var(--dark);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: var(--white-dark);
+   
+    
+}
+
+.resultadoDaBuscaEstudanteConfirmacao table thead th{
+    margin-left: 1rem;
+    color: var(--text);
+    
+}
+
+
+
+.CadastroDeUsuarioContainer form >div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    
+}
+
+
+.CadastroDeUsuarioContainer form div div input{
+    padding: 0.5rem;
+    width: 90%;  
+    background: inherit;
+    border: 1px solid var(--text);
+    color: var(--text);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+
+
+
+.CadastroDeUsuarioContainer h1{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+
+.CadastroDeUsuarioContainer form{
+    margin-top: 20%;
+    padding-bottom: 3.5rem;
+    width: 70%;
+    margin-left: 13%;
+    
+}
+
+.buttonGroup{
+    display: flex!important;
+    align-content: center;
+    align-items: center;
+    padding-left:7rem;
+    padding-top: 1rem;
+ 
+    
+}
+
+
+.buttonGroup button{
+    background: var(--blue-twiter);
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: var(--white);
+    transition:2s;
+    
+}
+
+.buttonGroup button:hover{
+    filter: brightness(0.7);
+}
+
+.buttonGroup :last-child{
+    margin-left: 1rem;
+}
+
+
+
+.ButtonEdit{
+    display: flex;
+    width: 100%;    
+    
+}
+
+.ButtonEdit input{
+    width:20%;
+    margin-left: 0.5rem;
+    
+}
+
+div .nivelAcesso{
+    grid-column: 1/5;
+    width: 100%;
+}
+
+div .nivelAcesso input{
+    width: 100%;
+}
+
